@@ -369,7 +369,7 @@ class _PredictionState extends State<Prediction> {
                 child: ElevatedButton(
                   onPressed: () async{
                     print(_list);
-                    url = 'http://192.168.43.160:5001/api?query='+_list.toString();
+                    url = 'http://192.168.43.160:5001/api?quer='+_list.toString();
 
                     data =await fetchPest(url);
                     data = await fetchPest(url);
