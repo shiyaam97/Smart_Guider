@@ -1,0 +1,144 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello", "Hi there, how can I help you?", "Hi", "Hey", "Hello"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "no answer",
+         "patterns": [" ", "" ],
+         "responses": ["Sorry, can't understand you", "Please give me more information", "What's that? say it again"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through prediction result suggestions, suggestions for improvements, module selection for your A/L's, emergency contact details and I can provide some basic knowledge related to your modules" ],
+         "context": [""]
+        },
+        {"tag": "suggestions",
+         "patterns": ["provide suggestions", "suggestions", "solutions" ],
+         "responses": ["please specify your predicted results percentage"],
+         "context": [""]
+        },
+		{"tag": "poor",
+         "patterns": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34" ],
+         "responses": ["__Category- Poor__Your overall academic performance level is not in a good stage to pass the examination. So, Please do some hard work on all Modules, please learn as much as possible, you must work hard in-order to pass the examinations and you must have to spend more time on applying the theoretical knowledge you gained by doing practicals. For more information regarding tutorials please refer our Study Material referencer to find good study materials"],
+         "context": [""]
+        },
+		{"tag": "average",
+         "patterns": ["35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64" ],
+         "responses": ["__Category- Average__Your overall academic performance level is somehow better to obtain just pass grade but if you really want a better results Please do some hard works on all including special concerns on Mathematics, Science, English and History, you have to spend some more hours to have a good results. For more information regarding tutorials please refer our Study Material referencer to find good study materials" ],
+         "context": [""]
+        },
+		{"tag": "good",
+         "patterns": ["65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84" ],
+         "responses": ["__Category- Good__Your overall academic performance level is Good but if you really spend some more hours you can obtain a good grade in all subjects and Please make sure to work hard on Science, History and Mathematics, For more information regarding tutorials please refer our Study Material referencer to find good study materials" ],
+         "context": [""]
+        },
+		{"tag": "excellent",
+         "patterns": [ "85", "86", "87", "88", "89", "90", "91", "92", "93", "94", "95", "96", "97", "98", "99", "100" ],
+         "responses": ["__Category- Excellent__Your overall academic performance level is too good but Please continue, maintain your progress works on all Modules as before and if you can concentrate more then you can achieve big level of good results. For more information regarding tutorials please refer our Study Material referencer to find good study materials" ],
+         "context": [""]
+        },
+        {"tag": "module",
+         "patterns": ["module", "module selection"],
+         "responses": ["Please select your preferred module from the following in which you got 75% or above for last 2 terms:   A.Maths   B.Science   C.IT   D.History   E.Technology   F.Tamil   G.Commerce"],
+         "context": [""]
+        },
+        {"tag": "maths-1",
+         "patterns": ["A.Maths", "G.Commerce", "A", "G", "Maths", "Commerce", "a", "g", "a.maths", "a.Maths", "A.maths" ],
+         "responses": ["You can either go with Maths Stream or Commerce stream in Advance Level"],
+         "context": [""]
+        },
+         {"tag": "bio",
+         "patterns": ["B.Science", "Science", "B", "b", "science", "b.science", "b.Science", "B.science", "A.science" ],
+         "responses": ["You can choose Biology as your Stream in Advance Level"],
+         "context": [""]
+        },
+         {"tag": "arts",
+         "patterns": ["D.history","F.tamil","Tamil", "History", "D.History"," d.history","d.History","f.tamil", "f.Tamil","F.Tamil", "F", "D", "f", "d", "tamil", "history"],
+         "responses": ["You can choose Arts as your Stream in Advance Level"],
+         "context": [""]
+        },
+        {"tag": "it",
+         "patterns": [ "C.it", "e.technology","c.it","e.technology","c.It","e.Technology","C.IT", "E.Technology", "C", "E", "IT", "Technology", "c", "e", "it", "technology"],
+         "responses": ["You can either go with Technology Stream or IT stream in Advance Level"],
+         "context": [""]
+        },
+     {"tag": "kh1",
+         "patterns": [ "When did Sri Lanka become independent?"],
+         "responses": ["4 February 1948"],
+         "context": [""]
+        },
+   {"tag": "kh2",
+         "patterns": [ "How was Sri Lanka formerly known?"],
+         "responses": ["Ceylon"],
+         "context": [""]
+        },
+  {"tag": "kh3",
+         "patterns": [ "Which is the longest river in Sri Lanka?"],
+         "responses": ["Mahaweli"],
+         "context": [""]
+        },
+  {"tag": "kh4",
+         "patterns": [ "Which is the highest point in Sri Lanka?"],
+         "responses": ["Pidurutalagala"],
+         "context": [""]
+        },
+  {"tag": "kh5",
+         "patterns": [ "Which strait separates Sri Lanka from India?"],
+         "responses": ["Palk Strait"],
+         "context": [""]
+        },
+  {"tag": "ks1",
+         "patterns": [ "Name the lens used in a simple microscope"],
+         "responses": ["Convex"],
+         "context": [""]
+        },
+   {"tag": "ks2",
+         "patterns": [ "Which of the following is not a primary colour"],
+         "responses": ["Yellow"],
+         "context": [""]
+        },
+ {"tag": "ks3",
+         "patterns": [ "Acid present in gastric juice is"],
+         "responses": ["Hydrochloric Acid"],
+         "context": [""]
+        },
+ {"tag": "ks4",
+         "patterns": [ "Which blood cells are called 'Soldiers' of the body"],
+         "responses": ["WBC"],
+         "context": [""]
+        },
+
+   {"tag": "ks5",
+         "patterns": [ " The liquid metal is"],
+         "responses": ["Mercury"],
+         "context": [""]
+        },
+  {"tag": "emergency",
+         "patterns": [ "emergency","emergency contact info", "emergency info"],
+         "responses": ["please select from the following 1.social media 2.school management"],
+         "context": [""]
+        },
+  {"tag": "social media",
+         "patterns": [ "social media"],
+         "responses": ["please report your concerns here report@cert.gov.lk"],
+         "context": [""]
+        },
+   {"tag": "school management",
+         "patterns": [ "school management"],
+         "responses": ["please report your concerns here report@abc.school.lk"],
+         "context": [""]
+        }
+]
+}
